@@ -66,5 +66,5 @@ The main goal was to understand how forms work, how to collect different types o
 
 ## 👩‍💻 Author
 Purva Jadhav  
-- LinkedIn: your-linkedin-link  
-- GitHub: your-github-link
+- LinkedIn: https://www.linkedin.com/in/purva-jadhav-5590572b4
+- GitHub: https://github.com/Purvjadh
