@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+
+<h1>Job Application Form</h1>
+
+<form action="">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <label for="mobile-number">Mobile Number:</label>
+        <input type="tel" name="mobile-number" id="mobile-number" required>
+        <br><br>
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" name="birthdate" id="birthdate" required>     
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Experience</legend>
+        <label for="experience">Experience:</label>
+        <select name="experience" id="experience">
+            <option value="fresher">fresher</option>
+            <option value="one-year">1 year</option>
+            <option value="two-plus-years">2 + years</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Skills</legend>
+        <label for="html">Html</label>
+        <input type="checkbox" name="html" id="html" value="html"><br>
+        <label for="css">CSS</label>
+        <input type="checkbox" name="css" id="css" value="css"><br>
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" name="javascript" id="javascript" value="javascript"><br>
+        <label for="html">React</label>
+        <input type="checkbox" name="react" id="react" value="react"><br>
+        <label for="html">Java</label>
+        <input type="checkbox" name="java" id="java" value="java"><br>
+        <label for="html">Python</label>
+        <input type="checkbox" name="python" id="python" value="python"><br>
+        <label for="html">Node.js</label>
+        <input type="checkbox" name="nodejs" id="nodejs" value="nodejs">
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Work Type</legend>
+        <label for="remote">Remote</label>
+        <input type="radio" name="work-type" id="remote" value="remote"><br>
+        <label for="onsite">Onsite</label>  
+        <input type="radio" name="work-type" id="onsite" value="onsite"><br>
+        <label for="hybrid">Hybrid</label>  
+        <input type="radio" name="work-type" id="hybrid" value="hybrid"><br>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Additional Information</legend>
+        <label for="file-upload">upload your resume:</label>
+        <input type="file" id="file-upload" name="file-upload" ><br><br>
+        <label for="message">Message:</label>
+        <textarea  id="message" name="message" required minlength="100" ></textarea>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+
+
+</form>
+    
+</body>
+</html>
