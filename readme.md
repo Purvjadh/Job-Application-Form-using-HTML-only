@@ -42,7 +42,7 @@ The main goal was to understand how forms work, how to collect different types o
 ## 🚀 Usage
 1. Clone this repository  
    ```bash
-   git clone https://github.com/yourusername/job-application-form.git
+   git clone https://github.com/Purvjadh/Job-Application-Form-using-HTML-only
    ```
 
 2. Open the project folder  
